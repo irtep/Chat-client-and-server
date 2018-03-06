@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Xat</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="css/xatcss.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+ 
+		<div id="wrapper">
+		
+			<div id="menu">
+				<p class="welcome">Welcome, <b><span id="nimi"></span></b></p>
+				<p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+				<div style="clear:both"></div>
+			</div>
+			 
+			<div id="chatbox">
+			    
+			    <p id="xatLog">
+			    	<!--
+				<span id="line1"></span><br><span id="line2"></span><br>
+				<span id="line3"></span><br><span id="line4"></span><br>
+				<span id="line5"></span><br><span id="line6"></span><br>
+				<span id="line7"></span><br><span id="line8"></span><br>
+				<span id="line9"></span><br><span id="line10"></span><br>
+				<span id="line11"></span><br><span id="line12"></span><br>
+				<span id="line13"></span><br><span id="line14"></span><br>
+				<span id="line15"></span><br><span id="line16"></span><br>
+				<span id="line17"></span><br><span id="line18"></span><br>
+				<span id="line19"></span><br><span id="line20"></span><br>
+				<span id="line21"></span><br><span id="line22"></span><br>
+				<span id="line23"></span><br><span id="line24"></span><br>
+				<span id="line25"></span><br><span id="line26"></span><br>
+				<span id="line27"></span><br><span id="line28"></span><br>
+				<span id="line29"></span><br><span id="line30"></span><br> -->
+				</p> 
+			    
+			</div>
+			 
+			<form name="message" action="">
+				<input name="usermsg" type="text" id="usermsg" size="63" />
+				<input name="submitmsg" type="button"  id="submitmsg" value="Send" />
+			</form>
+			
+		</div>
+		
+		<div id="loginform">
+			<form id="detailForm" name="detailForm">
+				<p>Please enter your name to continue:</p>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" />
+				<input type="button" name="enter" id="enter" value="Enter" />
+			</form>
+		</div>
+
+<script src="js/xat.js"></script>
+	
+</body>
+	
+</html>
